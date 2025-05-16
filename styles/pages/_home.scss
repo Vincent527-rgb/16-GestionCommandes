@@ -49,6 +49,18 @@ form {
     margin: 3rem auto;
     padding: 3rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.25);
+
+    > div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .delete-btn {
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+        }
+    }
 }
 .total-commandes {
     position: fixed;

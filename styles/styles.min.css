@@ -108,6 +108,16 @@ form button:hover {
   padding: 3rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
+.list-commandes > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.list-commandes > div .delete-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
 
 .total-commandes {
   position: fixed;
